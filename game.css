@@ -1,0 +1,52 @@
+body{
+ background-color: brown;
+ display: flex;
+ flex-direction: column;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: orange;
+    margin: 15px;
+
+}
+
+.mainplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin: 20px;
+}
+
+button{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border-width: 20px;
+    border-color: rgb(201, 95, 25);
+}
+
+.scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.human,
+.computer{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+
+#result-display{
+    display:flex;
+    justify-content: center;
+    color:aliceblue;
+}
+
